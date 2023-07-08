@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #04050E;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 150px;
+    border-bottom: 1px solid rgb(122, 122, 122);
+}
+nav .Menu{
+    display: flex;
+}
+nav .Menu .Logo a{
+    font-size: 2rem;
+    color: white;
+}
+nav .Menu .Logo a span{
+    color: #FC3E02;
+    font-size: 2rem;
+}
+nav .Menu ul{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+nav .Menu ul li{
+    margin-left: 40px;
+}
+nav .Menu ul li a{
+    font-size: 1rem;
+    color: rgb(158, 158, 158);
+    transition: all .3s;
+}
+nav .Menu ul li a:hover{
+    transition: all .3s;
+    color: #FC3E02;
+}
+nav .BookNow button{
+    padding: 10px 25px;
+    outline: none;
+    border-radius: 0.5rem;
+    background-color: white;
+    border: 1px solid #FC3E02;
+    color: #04050E;
+    font-size: 1rem;
+    transition: all .3s;
+    font-weight: bold;
+    cursor: pointer;
+}
+nav .BookNow button:hover{
+    background-color: #FC3E02;
+    border: 1px solid #FC3E02;
+    color: white;
+    transition: all .3s;
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-text{
+    padding: 0 100px;
+    margin-bottom: 100px;
+}
+
+.intro-text h1{
+    color: white;
+    font-size: 3.9rem;
+    font-weight: 100;
+}
+.intro-text span{
+    color: #FC3E02;
+    font-weight: bold;
+}
+.intro-text p{
+    margin-top: 40px;
+    font-size: 1.2rem;
+    line-height: 150%;
+    font-weight: 100;
+    color: rgb(158, 158, 158);
+}
+.intro-text button{
+    margin-top: 50px;
+    padding: 20px 50px;
+    outline: none;
+    border-radius: 0.5rem;
+    background-color: #FC3E02;
+    border: 1px solid #FC3E02;
+    color: white;
+    font-size: 1rem;
+    transition: all .3s;
+    font-weight: bold;
+    cursor: pointer;
+}
+.intro-text button:hover{
+    background-color: white;
+    border: 1px solid white;
+    color: #FC3E02;
+    transition: all .3s;
+}
+.intro-image{
+    margin-top: 75px;
+}
+.intro-image img{
+    width: 800px;
+    height: 800px;
+    object-fit: cover;
+}
+
+
+/* Inputs Section */
+
+.inputs{
+    display: flex;
+    align-items: center;
+    padding: 50px 100px;
+    background-color: white;
+    position: absolute;
+    top: 885px;
+    margin-left: 120px;
+}
+
+.inputs-wrapper input{
+    border: 1px solid gray;
+    padding: 20px 50px;
+    border-radius: 0.5rem;
+    margin-left: 10px;
+}
+
+.inputs-wrapper button{
+    padding: 20px 50px;
+    outline: none;
+    border-radius: 0.5rem;
+    background-color: #FC3E02;
+    border: 1px solid #FC3E02;
+    color: white;
+    font-size: 1rem;
+    transition: all .3s;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/* Why Section */
+
+
+.why{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f3f3f3;
+    padding: 250px 150px 100px 150px;
+}
+.why-text h1{
+    font-size: 3rem;
+}
+.why-text h1 span{
+    font-weight: 100;
+    font-size: 3rem;
+}
+.why-text p{
+    margin-top: 20px;
+    font-size: 1rem;
+    line-height: 150%;
+}
+.why-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.why-cards-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    border: 2px solid #04050E;
+    border-radius: 0.5rem;
+    margin-left: 20px;
+    transition: all .3s;
+}
+.why-cards-item:hover{
+    color: white;
+    background-color: #FC3E02;
+    border: 2px solid #FC3E02;
+    transition: all .3s;
+}
+.why-cards-item:hover i{
+    color: #04050E;
+    background-color: #f3f3f3;
+    transition: all .3s;
+}
+.why-cards-item i{
+    font-size: 3rem;
+    padding: 25px;
+    background-color: #04050E;
+    color: white;
+    border-radius: 0.5rem;
+    transition: all .3s;
+}
+.why-cards-item h1{
+    margin-top: 50px;    
+}
+.why-cards-item p{
+    margin-top: 20px;
+}
